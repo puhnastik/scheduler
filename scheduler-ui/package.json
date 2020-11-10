@@ -1,0 +1,70 @@
+{
+  "_from": "https://github.com/jqwidgets/scheduler-ui-vue3/tarball/master",
+  "_id": "scheduler-ui-vue3@",
+  "_inBundle": false,
+  "_integrity": "sha512-US3yXHozIeAZ23QLdEjE65ksy6EhTaOAJFaWrlRcOeR60VOhqzDyXo1xaIoz4TLucViIDv0E9OrTamh/ga9ppg==",
+  "_location": "/scheduler-ui-vue3/scheduler-ui-vue3",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "remote",
+    "raw": "scheduler-ui-vue3@https://github.com/jqwidgets/scheduler-ui-vue3/tarball/master",
+    "name": "scheduler-ui-vue3",
+    "escapedName": "scheduler-ui-vue3",
+    "rawSpec": "https://github.com/jqwidgets/scheduler-ui-vue3/tarball/master",
+    "saveSpec": "https://github.com/jqwidgets/scheduler-ui-vue3/tarball/master",
+    "fetchSpec": "https://github.com/jqwidgets/scheduler-ui-vue3/tarball/master"
+  },
+  "_requiredBy": [],
+  "_resolved": "https://github.com/jqwidgets/scheduler-ui-vue3/tarball/master",
+  "_shasum": "5eae6f25352bf77f9c9c7b1861c16f35fb09e433",
+  "_spec": "scheduler-ui-vue3@https://github.com/jqwidgets/scheduler-ui-vue3/tarball/master",
+  "_where": "C:\\Users\\akuzina\\AppData\\Roaming\\npm\\node_modules\\scheduler-ui-vue3",
+  "browserslist": [
+    "> 1%",
+    "last 2 versions"
+  ],
+  "bundleDependencies": false,
+  "dependencies": {
+    "core-js": "^2.6.5",
+    "jqwidgets-scripts": "^8.1.4",
+    "vue": "^2.6.10"
+  },
+  "deprecated": false,
+  "description": "Please refer to its documentation:   - [Getting Started](https://github.com/jqwidgets/scheduler-ui-vue3/blob/master/README.md#getting-started)    - [jQWidgets Vue Documentation](http://www.jqwidgets.com/vue-components-documentation/)",
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.8.0",
+    "@vue/cli-plugin-eslint": "^3.8.0",
+    "@vue/cli-service": "^3.8.0",
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.16.0",
+    "eslint-plugin-vue": "^5.0.0",
+    "vue-template-compiler": "^2.6.10"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "rules": {},
+    "parserOptions": {
+      "parser": "babel-eslint"
+    }
+  },
+  "name": "scheduler-ui-vue3",
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
+    }
+  },
+  "private": true,
+  "scripts": {
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "serve": "vue-cli-service serve"
+  },
+  "version": ""
+}
