@@ -11,6 +11,8 @@
                  [compojure "1.6.2"]
                  [ring/ring-json "0.5.0"]
                  [ring-cors "0.1.13"]
+                 [org.clojure/java.jdbc "0.7.11"]
+                 [com.h2database/h2 "1.4.200"]
                  ]
   :plugins [[lein-ring "0.12.5"]]
   :ring {:handler ring-api.core/rest-api}

@@ -5,20 +5,16 @@
             [ring.middleware.defaults :refer :all]
             [ring.middleware.json :refer [wrap-json-response]]
             [ring.middleware.cors :refer [wrap-cors]]
-            [ring.util.response :refer [response]]))
+            [ring.util.response :refer [response]]
+            [ring-api.db :as db]))
 
 (defn create-new-appointment [body] (response body))
 
 (defn get-appointment [id] (response id ))
 (defn update-appointment [id body] (response  body ))
 (defn delete-appointment [id] (response (str "I delete an appointment " id) ))
-(defn get-all-appointments  [] (response [{:id "id21",
-                                           :description "",
-                                           :location "",
-                                           :subject "ring api demo",
-                                           :calendar "Room 1",
-                                           :start "2021-01-11 04:05",
-                                           :end "2021-01-11 04:25"}]))
+(defn get-all-appointments  [] (response db/select-all-appointments))
+
 (defroutes app-routes-handler
            (context "/appointments" [] (defroutes appointments-routes
                                        (GET "/" [] (get-all-appointments)))
