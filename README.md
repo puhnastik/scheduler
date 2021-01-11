@@ -2,7 +2,7 @@
 Scheduler application with a Vue frontend and Clojure backend
 
 # Developer setup
-##Prerequisites
+## Prerequisites
 Node JS version 12.18.2 or higher (includes npm 6.14.5 or higher) is required to run functional tests.
 To check the version of Node JS that is installed, enter the following in a command prompt:
 

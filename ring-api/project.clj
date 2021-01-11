@@ -10,6 +10,7 @@
                  [ring/ring-jetty-adapter "1.7.1"]
                  [compojure "1.6.2"]
                  [ring/ring-json "0.5.0"]
+                 [ring-cors "0.1.13"]
                  ]
   :plugins [[lein-ring "0.12.5"]]
   :ring {:handler ring-api.core/rest-api}
