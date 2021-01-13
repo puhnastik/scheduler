@@ -1,2 +1,8 @@
 .idea
 node_modules
+ring-api/.lein-repl-history
+ring-api/.nrepl-port
+*.db
+ring-api/target/
+ring-api/target/repl-port
+*.extract-native-dependencies
